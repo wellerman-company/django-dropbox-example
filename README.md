@@ -35,19 +35,19 @@ And install django-dropbox-storage
 
 ## Finally
 
+Clone this repository:
+
+```
+git clone https://github.com/zahidtokur/django-dropbox-example.git
+cd django-dropbox-example
+```
+
 Before running the project make sure to set the following in `settings.py`:
 
 ```
 DROPBOX_CONSUMER_KEY = 'YOUR DROPBOX CONSUMER KEY HERE'
 DROPBOX_CONSUMER_SECRET = 'YOUR DROPBOX CONSUMER SECRET HERE'
 DROPBOX_ACCESS_TOKEN = 'ACCESS TOKEN GENERATED FROM get_dropbox_token'
-```
-
-We are all set up! Now clone this repository:
-
-```
-git clone https://github.com/zahidtokur/django-dropbox-example.git
-cd django-dropbox-example
 ```
 
 Migrate and create a superuser to test it:
