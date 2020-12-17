@@ -54,7 +54,7 @@ Migrate and create a superuser to test it:
 
 ```
 python manage.py migrate
-python manage.py createsuper
+python manage.py createsuperuser
 ```
 
 After logging in to django admin site, go to http://127.0.0.1:8000/admin/core/dropboxfile/ page and create a DropboxFile to test it.
